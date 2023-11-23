@@ -3,7 +3,9 @@
 .section1{
     background-color: #1F2937;;
 }
-
+body{
+    margin:0;
+}
 .logo{
     width:40px;
     height:40px;
@@ -50,8 +52,29 @@ button {
     border-radius: 30%;
 }
 
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+}
+
+.sec2text {
+    font-size:18px;
+    color:#1F2937;
+}
+
+.imagesec2{
+    border:navy solid;
+    border-radius:5%;
+}
+
+
+
 
 /* FLexbox stuff */
+
+
+
 
 header {
     display:flex;
@@ -85,4 +108,33 @@ header {
     justify-content: center;
     margin:auto;
     gap:20px;
+}
+
+
+.section2{
+    display:flex;
+    margin:10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.container2 {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.imagesec2{
+    margin: auto;
+    margin-top: 25px;
+}
+
+.sec2text {
+    font-weight: 300;
+    font-style: italic;
+    margin:20px;
+    width:250px;
 }
