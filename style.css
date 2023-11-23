@@ -1,0 +1,57 @@
+/* COLORS AND FONTS */
+
+.section1{
+    background-color: #1F2937;
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.logotext{
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
+.header-link{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
+    padding:15px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* FLexbox stuff */
+
+header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.lheader{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    padding:10px;
+}
+
+.header-link{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
