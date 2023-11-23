@@ -69,6 +69,16 @@ button {
 }
 
 
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937
+}
+
+.author {
+    font-size:20px;
+}
+
 
 
 /* FLexbox stuff */
@@ -99,13 +109,14 @@ header {
     padding:10px;
 }
 
+
 .textandbutton {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
     padding: 10px;
     align-items:center;
-    justify-content: center;
+    justify-content: space-between;
     margin:auto;
     gap:20px;
 }
@@ -118,6 +129,10 @@ header {
     align-items: center;
     justify-content: center;
     gap:10px;
+    padding:100px;
+    margin:100px;
+    border:#4CAF50 solid;
+
 }
 
 .container2 {
@@ -137,4 +152,61 @@ header {
     font-style: italic;
     margin:20px;
     width:250px;
+}
+
+
+.section3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background-color: #E5E7EB;
+
+}
+
+.section4{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin:100px;
+    padding:30px;
+    border:5px;
+    gap:20px;
+    border-radius: 25px;
+    width:auto;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.help {
+    font-size: 30px;
+}
+
+.button2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+footer {
+    display:flex;
+    color:#E5E7EB;
+    text-decoration: none;
+    display: flex;
+    padding:10px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+    color:#3882F6;
 }
