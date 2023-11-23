@@ -1,7 +1,7 @@
 /* COLORS AND FONTS */
 
 .section1{
-    background-color: #1F2937;
+    background-color: #1F2937;;
 }
 
 .logo{
@@ -15,9 +15,10 @@
     font-size: 24px;
 }
 
-.header-link{
+.header-link,.herosub{
     font-size: 18px;
-    color:#E5E7EB;
+    color: #e5e7eb;;
+    padding: 10px;
 }
 
 footer {
@@ -34,6 +35,21 @@ button {
     border-radius: 50px;
     cursor: pointer;
 }
+
+.heromain {
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+
+.symbol {
+    width: 300px;
+    height:auto;
+    margin:20px;
+    border: #4CAF50;
+    border-radius: 30%;
+}
+
 
 /* FLexbox stuff */
 
@@ -55,3 +71,18 @@ header {
     gap:10px;
 }
 
+.container {
+    display:flex;
+    padding:10px;
+}
+
+.textandbutton {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 10px;
+    align-items:center;
+    justify-content: center;
+    margin:auto;
+    gap:20px;
+}
